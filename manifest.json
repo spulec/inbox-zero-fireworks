@@ -1,0 +1,17 @@
+{
+  "name": "Inbox Zero Fireworks",
+  "version": "0.1.3",
+  "description": "When your gmail hits inbox zero, you get fireworks.",
+  "icons": {
+    "16": "firework16.jpg",
+    "48": "firework48.jpg",
+    "128": "firework128.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "css": [],
+      "js": ["jquery.min.js", "main.js", "fireworks.js"]
+    }
+  ]
+}
