@@ -1,4 +1,3 @@
-console.log("testing");
 var polling_timeout = 2000;
 var prev_count_zero = true; // Assume you were inbox zero so we don't firework the first time
 
